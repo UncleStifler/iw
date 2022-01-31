@@ -1,0 +1,52 @@
+nav {
+  display: flex;
+  height: 40px;
+  background-color: #115e59;
+  width: 70%;
+  margin: 1rem auto;
+  padding: 0.5rem 2rem;
+  box-sizing: border-box;
+  border-radius: 6px;
+  color: white;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text {
+  color: inherit;
+  text-decoration: inherit;
+}
+.text:hover {
+  text-decoration: underline;
+}
+
+.num__items {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+}
+
+.link-btn {
+  padding: 0.25rem 0.5rem;
+  margin-left: 1rem;
+  background-color: white;
+  position: relative;
+}
+
+.link-btn:hover {
+  background-color: #e5e7eb;
+}
+
+.number__products {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  color: white;
+  border-radius: 999px;
+  position: absolute;
+  font-weight: bold;
+  display: grid;
+  place-content: center;
+  left: 20px;
+  top: 10px;
+}
